@@ -62,6 +62,143 @@
       ],
       "ast": [
         "aggregate/ast/5f81cf254d3e1db4a98a9a49723b7405a4d3e383/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/5f81cf254d3e1db4a98a9a49723b7405a4d3e383.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "async-std",
+          "ecosystem": "CARGO",
+          "version": "1",
+          "githubOrg": "async-rs",
+          "githubRepo": "async-std",
+          "githubUrl": "https://github.com/async-rs/async-std",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "smol",
+          "ecosystem": "CARGO",
+          "version": "2",
+          "githubOrg": "smol-rs",
+          "githubRepo": "smol",
+          "githubUrl": "https://github.com/smol-rs/smol",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "tokio",
+          "ecosystem": "CARGO",
+          "version": "1",
+          "githubOrg": "tokio-rs",
+          "githubRepo": "tokio",
+          "githubUrl": "https://github.com/tokio-rs/tokio",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "smol-potat",
+          "ecosystem": "CARGO",
+          "version": "1.1",
+          "githubOrg": "wusyong",
+          "githubRepo": "smol-potat",
+          "githubUrl": "https://github.com/wusyong/smol-potat",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "tempfile",
+          "ecosystem": "CARGO",
+          "version": "3",
+          "githubOrg": "Stebalien",
+          "githubRepo": "tempfile",
+          "githubUrl": "https://github.com/Stebalien/tempfile",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "core/src/result.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "core/src/macros/mod.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "core/src/convert/mod.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "std/src/path.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "core/src/fmt/mod.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "core/src/io/error.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "core/src/option.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "std/src/macros.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "core/src/num/mod.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "rustix",
+          "ecosystem": "CARGO",
+          "version": "1.1.6",
+          "githubOrg": "bytecodealliance",
+          "githubRepo": "rustix",
+          "githubCommit": "4a563ad698b2c20ff848515821023d2265a788d0",
+          "githubTag": "v1.1.6",
+          "githubUrl": "https://github.com/bytecodealliance/rustix",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rustix-1.1.6/src/fs/abs.rs"
+        },
+        {
+          "packageName": "std/src/io/error.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "std/src/lib.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        }
       ]
     }
   ],
